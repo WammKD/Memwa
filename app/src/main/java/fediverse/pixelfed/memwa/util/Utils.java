@@ -36,7 +36,7 @@ public class Utils {
 		}
 	}
 
-	private String loadJSONfromAsset(Context context, String jsonFileName) {
+	private static String loadJSONfromAsset(Context context, String jsonFileName) {
 		String      json = null;
 		InputStream is   = null;
 
