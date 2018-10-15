@@ -16,8 +16,7 @@ public class Utils {
 
 	public static List<InfiniteFeedInfo> loadInfiniteFeeds(Context context) {
 		try {
-			GsonBuilder            builder  = new GsonBuilder();
-			Gson                   gson     = builder.create();
+			Gson                   gson     = new GsonBuilder().create();
 			JSONArray              array    = new JSONArray(loadJSONfromAsset(context,
 			                                                                  "infinite_news.json"));
 			List<InfiniteFeedInfo> feedList = new ArrayList<InfiniteFeedInfo>();
