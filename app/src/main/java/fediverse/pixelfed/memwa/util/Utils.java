@@ -1,15 +1,15 @@
 package fediverse.pixelfed.memwa.util;
 
-import java.util.List;
 import android.content.Context;
-import com.google.gson.GsonBuilder;
-import com.google.gson.Gson;
-import org.json.JSONArray;
-import java.util.ArrayList;
-import android.util.Log;
-import java.io.InputStream;
 import android.content.res.AssetManager;
+import android.util.Log;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+import org.json.JSONArray;
 
 public class Utils {
 	private static final String TAG = "Utils";
