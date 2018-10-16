@@ -16,6 +16,11 @@
 	          app:layout_constraintLeft_toLeftOf="parent"
 	          app:layout_constraintTop_toTopOf="parent"                      />
 
+	<com.mindorks.placeholderview.InfinitePlaceHolderView android:id="@+id/loadMoreView"
+	                                                      android:layout_width="match_parent"
+	                                                      android:layout_height="wrap_content"
+	                                                      app:layout_constraintBottom_toTopOf="@id/navigation" />
+
 	<android.support.design.widget.BottomNavigationView android:id="@+id/navigation"
 	                                                    android:layout_width="0dp"
 	                                                    android:layout_height="wrap_content"
