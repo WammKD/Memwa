@@ -4,9 +4,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     app:cardCornerRadius="4dp"
-                                    app:cardElevation="1dp"
-                                    android:layout_margin="5dp"
-                                    app:cardBackgroundColor="@android:color/holo_blue_dark">
+                                    app:cardElevation="4dp"
+                                    android:layout_margin="7dp"
+                                    app:cardBackgroundColor="@color/card_background">
 	<LinearLayout android:orientation="horizontal"
 	              android:layout_width="match_parent"
 	              android:layout_height="wrap_content"
